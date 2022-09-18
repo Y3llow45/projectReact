@@ -5,7 +5,7 @@ function Tweet(props){
     return (
         <div className='tweet'>
             <h3>Name: {props.name}</h3>
-            <p>This is a random tweet</p>
+            <p>{props.message}</p>
             <h3>Llikes: {props.likes}</h3>
         </div>
     );
